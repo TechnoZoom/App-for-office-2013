@@ -1,0 +1,2 @@
+bin\Debug\app.publish\OfficeAppManifests\Symbol InserterManifest.xml
+K:\final office apps\Symbol Inserter\Symbol Inserter\bin\Debug\app.publish\Symbol Inserter.app

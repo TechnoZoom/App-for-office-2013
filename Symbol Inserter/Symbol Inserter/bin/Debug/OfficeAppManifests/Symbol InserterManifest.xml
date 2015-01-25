@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>d61056aa-3721-48fa-964d-d4e520e79ab0</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>kapil pc</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Symbol Inserter" />
+  <Description DefaultValue="Symbol Inserter"/>
+  <IconUrl DefaultValue="http://imageshack.com/a/img23/3429/6km5.png" />
+  <SupportUrl DefaultValue="https://www.dropbox.com/s/anhwqcj9wgex92x/Support%20Documentation.docx"></SupportUrl>
+  <Capabilities>
+    <Capability Name="Presentation" />
+    <Capability Name="Document" />
+    <Capability Name="Workbook" />
+  </Capabilities>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://googledrive.com/host/0Bxztvqgv6ibLUnVxQjdGbjlYOWM/Home.html" />
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>

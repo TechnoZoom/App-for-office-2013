@@ -1,0 +1,6 @@
+K:\final office apps\Symbol Inserter\Symbol InserterWeb\bin\Symbol InserterWeb.dll.config
+K:\final office apps\Symbol Inserter\Symbol InserterWeb\bin\Symbol InserterWeb.dll
+K:\final office apps\Symbol Inserter\Symbol InserterWeb\bin\Symbol InserterWeb.pdb
+K:\final office apps\Symbol Inserter\Symbol InserterWeb\obj\Debug\Symbol InserterWeb.csprojResolveAssemblyReference.cache
+K:\final office apps\Symbol Inserter\Symbol InserterWeb\obj\Debug\Symbol InserterWeb.dll
+K:\final office apps\Symbol Inserter\Symbol InserterWeb\obj\Debug\Symbol InserterWeb.pdb

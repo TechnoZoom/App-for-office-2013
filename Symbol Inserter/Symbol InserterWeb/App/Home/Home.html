@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title></title>
+    <script src="../../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+
+    <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
+    <script src="https://appsforoffice.microsoft.com/lib/1.0/hosted/office.js" type="text/javascript"></script>
+
+    <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+    <!--    <script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>       -->
+    <!--    <script src="../../Scripts/Office/1.0/office.js" type="text/javascript"></script>          -->
+
+    <link href="../App.css" rel="stylesheet" type="text/css" />
+    <script src="../App.js" type="text/javascript"></script>
+
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>                                                                                                                                                                                                                              
+</head>
+<body background="bh.jpg">
+
+    <!-- Page content -->
+
+    <div id="math" class="sum">
+        <h1 class="hd"> Mathematics </h1>
+        <button onclick="writeData()">∫ </button><nbsp /> <button onclick="writeData_2()">∞ </button><nbsp /> <button onclick="writeData_3()">≠ </button><nbsp /> <button onclick="writeData_4()">± </button><nbsp /><button onclick="writeData_5()">∓ </button><nbsp /><button onclick="writeData_6()">× </button><nbsp /><button onclick="writeData_7()">⊗ </button><nbsp />
+        <button onclick="writeData_8()">÷ </button><nbsp /> <button onclick="writeData_9()">≈ </button><nbsp /> <button onclick="writeData_10()">⇒ </button><nbsp /> <button onclick="writeData_11()">→ </button><nbsp />
+        <button onclick="writeData_12()">⇔ </button><nbsp /> <button onclick="writeData_13()">∀ </button><nbsp /> <button onclick="writeData_14()">≅ </button><nbsp /> <button onclick="writeData_15()">~ </button><nbsp /> <button onclick="writeData_16()">δ </button><nbsp /> <button onclick="writeData_17()">∮ </button><nbsp /> <button onclick="writeData_18()">π </button><nbsp />
+        <button onclick="writeData_19()">σ </button><nbsp /> <button onclick="writeData_20()">⊥ </button><nbsp /> <button onclick="writeData_21()">∬ </button><nbsp /> <button onclick="writeData_22()">∭ </button><nbsp /> <button onclick="writeData_23()">∯ </button><nbsp /> <button onclick="writeData_24()">∰ </button><nbsp />
+        <button onclick="writeData_25()">∑ </button><nbsp /> <button onclick="writeData_26()">∴ </button><nbsp /> <button onclick="writeData_27()">∵ </button><nbsp /> <button onclick="writeData_28()">∈ </button><nbsp />
+        <button onclick="writeData_29()">∉ </button><nbsp />
+    </div>
+
+    <div id="phy" class="sum">
+        <h1 class="hd"> Physics </h1>
+        <button onclick="writeData_p()">α </button><nbsp /> <button onclick="writeData_p_1()">β </button><nbsp /> <button onclick="writeData_p_2()">γ </button><nbsp /> <button onclick="writeData_p_3()">δ </button><nbsp /> <button onclick="writeData_p_4()">ε </button><nbsp />
+        <button onclick="writeData_p_5()">ζ  </button><nbsp /> <button onclick="writeData_p_6()">η </button><nbsp />
+        <button onclick="writeData_p_7()">θ </button><nbsp /> <button onclick="writeData_p_8()">κ </button><nbsp />
+        <button onclick="writeData_p_9()">λ </button><nbsp /> <button onclick="writeData_p_10()">μ </button><nbsp />
+        <button onclick="writeData_p_11()">ν </button><nbsp /> <button onclick="writeData_p_12()">ω </button><nbsp />
+        <button onclick="writeData_p_13()">ψ </button><nbsp /> <button onclick="writeData_p_14()">χ </button><nbsp />
+        <button onclick="writeData_p_15()">φ </button><nbsp /><button onclick="writeData_p_16()">τ </button><nbsp />
+    </div>
+
+    <div id="mus" class="sum">
+        <h1 class="hd"> Musical </h1>
+        <button onclick="writeData_m_1()">♩ </button> </nbsp><button onclick="writeData_m_2()">♪ </button><nbsp /> <button onclick="writeData_m_3()">♫ </button><nbsp /> <button onclick="writeData_m_4()">♬ </button><nbsp /> <button onclick="writeData_m_5()">♭ </button><nbsp /> <button onclick="writeData_m_6()">♮ </button><nbsp /> <button onclick="writeData_m_7()">♯ </button><nbsp />
+    </div>
+
+
+
+    <div id="pho" class="sum">
+        <h1 class="hd"> Phonetics </h1>
+            
+        <button onclick="writeData_po_1()">ʳ </button><nbsp /> <button onclick="writeData_po_2()">ɹ </button><nbsp /> 
+        <button onclick="writeData_po_3()">ɾ </button><nbsp /> <button onclick="writeData_po_4()">ʃ </button><nbsp /> 
+        <button onclick="writeData_po_5()">θ </button><nbsp /> <button onclick="writeData_po_6()">t̬ </button><nbsp /> 
+        <button onclick="writeData_po_7()">ʊ </button><nbsp /> <button onclick="writeData_po_8()">ʊ̈ </button><nbsp /> 
+        <button onclick="writeData_po_9()">ʌ </button><nbsp /> <button onclick="writeData_po_10()">ʒ </button><nbsp /> 
+        <button onclick="writeData_po_11()">ʔ </button><nbsp /> <button onclick="writeData_po_12()">æ </button><nbsp /> 
+        <button onclick="writeData_po_13()">ɑ </button><nbsp /> <button onclick="writeData_po_14()">ð </button><nbsp /> 
+        <button onclick="writeData_po_15()">ə </button><nbsp /> <button onclick="writeData_po_16()">ɚ </button><nbsp /> 
+        <button onclick="writeData_po_17()">ɜ </button><nbsp /> <button onclick="writeData_po_18()">ɛ </button><nbsp /> 
+        <button onclick="writeData_po_19()">ɝ </button><nbsp /> <button onclick="writeData_po_20()">ɪ </button><nbsp /> 
+        <button onclick="writeData_po_21()">ɪ̈ </button><nbsp /> <button onclick="writeData_po_22()">ɫ </button><nbsp /> 
+        <button onclick="writeData_po_23()">ŋ </button><nbsp /> <button onclick="writeData_po_24()">ɔ </button><nbsp /> 
+        <button onclick="writeData_po_25()">ɒ </button><nbsp /> 
+        </div>
+
+
+
+
+
+        <div id="emo" class="sum">
+            <h1 class="hd"> Emoticons </h1>
+
+            <button onclick="writeData_e_1()">≧◠‿●‿◠≦ </button> </nbsp>  <button onclick="writeData_e_2()">(ô‿ô) </button> </nbsp>
+            <button onclick="writeData_e_3()">٩(●̮̃•)۶ </button> </nbsp>  <button onclick="writeData_e_4()">(っ◔◡◔)っ </button> </nbsp>
+            <button onclick="writeData_e_5()">♥ </button> </nbsp> <button onclick="writeData_e_6()">ʃ(˘▽ƪ) </button> </nbsp>
+            <button onclick="writeData_e_7()"> ⁀⊙﹏☉⁀  </button> </nbsp> <button onclick="writeData_e_8()">(⊙.⊙(☉_☉)⊙.⊙) </button> </nbsp>
+            <button onclick="writeData_e_9()">(◑_◑) </button> </nbsp> <button onclick="writeData_e_10()">ಥ_ಥ </button> </nbsp>
+            <button onclick="writeData_e_11()">(╥﹏╥) </button> </nbsp>  <button onclick="writeData_e_12()">:-Þ </button> </nbsp>
+            <button onclick="writeData_e_13()">:-C </button> </nbsp>  <button onclick="writeData_e_14()">✿◕ ‿ ◕✿ </button> </nbsp>
+            <button onclick="writeData_e_15()">(^,^) </button> </nbsp>  <button onclick="writeData_e_16()">O.o </button> </nbsp>
+            <button onclick="writeData_e_17()">(。_。) </button> </nbsp>  <button onclick="writeData_e_18()">【・ヘ・?】 </button> </nbsp>
+            <button onclick="writeData_e_19()">~(˘▾˘)~ </button> </nbsp>  <button onclick="writeData_e_20()">(✖╭╮✖) </button> </nbsp>
+            <button onclick="writeData_e_21()">( ►_◄ ) </button> </nbsp> <button onclick="writeData_e_22()">(ﾉ◕ヮ◕)ﾉ </button> </nbsp>
+            <button onclick="writeData_e_23()">t(-_-t) </button> </nbsp>  <button onclick="writeData_e_24()">┬┴┬┴┤(･_├┬┴┬┴ </button> </nbsp>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

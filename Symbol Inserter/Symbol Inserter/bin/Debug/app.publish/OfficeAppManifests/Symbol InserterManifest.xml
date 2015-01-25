@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Published:70EDFC97-B41D-43C5-B751-7C00AD999804-->
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>d61056aa-3721-48fa-964d-d4e520e79ab0</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>kapil pc</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Symbol Inserter" />
+  <Description DefaultValue="Symbol Inserter" />
+  <IconUrl DefaultValue="https://www.dropbox.com/s/cjy8s5rzyj6rhmu/icon.png" />
+  <SupportUrl DefaultValue="https://www.dropbox.com/s/anhwqcj9wgex92x/Support%20Documentation.docx"></SupportUrl>
+  <Capabilities>
+    <Capability Name="Presentation" />
+    <Capability Name="Document" />
+    <Capability Name="Workbook" />
+    <Capability Name="Project" />
+  </Capabilities>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://www.dropbox.com/s/hul6n5wmtel6t3c/Home.html" />
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
